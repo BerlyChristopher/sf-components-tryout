@@ -7,12 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MultiselectDropdownComponent implements OnInit {
 
+  constructor() { }
+
   // defined the array of data
   public data: string[] = ['Badminton', 'Basketball', 'Cricket', 'Football', 'Golf', 'Gymnastics', 'Hockey', 'Rugby', 'Snooker', 'Tennis'];
-  // set placeholder to MultiSelect input element
-  public placeholder: string = 'Select games';
-
-  constructor() { }
 
   ngOnInit(): void {
   }
